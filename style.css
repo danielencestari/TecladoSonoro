@@ -1,10 +1,10 @@
 html {
-  font-size: 15px;
+  font-size: 12px;
   justify-content: center;
   text-align: center;
-  background-image: url(image/background3.jpeg);
+  background-image: url(image/background.jpeg);
   background-size: cover;
-  padding: 95px;
+  padding: 50px;
 }
 
 header {
@@ -22,8 +22,8 @@ body {
   display:inline-flex;
   border: 7px solid black;
   border-radius: 25pt;
-  margin: 20px; /* usando margin e padding pra deixar as 'teclas mais espaçadas entre elas */
-  padding: 20px;
+  margin: 10px; /* usando margin e padding pra deixar as 'teclas mais espaçadas entre elas */
+  padding: 10px;
   transition: all .07s ease;
   text-align: center;
   color: white;
@@ -33,14 +33,14 @@ body {
 
 .playing {
   /* destaque das que já foram tocadas */
-  transform: scale(1.2);
+  transform: scale(1.1);
   border-color: #7a397c;
   box-shadow: 0 0 20px #df23b6;
 }
 
 kbd {
   /*  pra ficar grande as teclas */
-  font-size: 150px;
+  font-size: 100px;
 }
 
 .sound {
